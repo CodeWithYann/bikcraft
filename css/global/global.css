@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", Helvetica, sans-serif;
+    padding-bottom: 600px;
+}
+
+h1, ul, p {
+    margin: 0px;
+}
+
+li {
+
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
