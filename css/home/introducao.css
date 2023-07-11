@@ -27,16 +27,63 @@
     object-fit: cover;
 }
 
-.introducao-conteudo h1 {
-    font-size: 64px;
-    padding-bottom: 32px;
-    line-height: 1.25;
-}
-
 .introducao-conteudo p {
     font-size: 24px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 1.25;
     padding-bottom: 40px;
     color: #B2B2B2;
+}
+
+@media (max-width: 1100px) {
+    .introducao-conteudo h1 {
+        font-size: 44px;
+    }
+
+    .introducao-conteudo p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+    .introducao-conteudo h1 {
+        font-size: 36px;
+    }
+
+    .introducao-conteudo p {
+        font-size: 16px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+    .introducao {
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+
+
+    .introducao-conteudo {
+        align-self: end;
+        padding-top: 40px;
+        padding-bottom: 30px;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+    .introducao-conteudo h1 {
+        margin-bottom: 0px;
+    }
+
+    .introducao-conteudo p {
+        padding-bottom: 40px;
+    }
+
+    .introducao-bg {
+        box-shadow: inset 0px -60px #ffffff;
+    }
+
 }

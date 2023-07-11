@@ -3,8 +3,14 @@
 
 /* CSS utilitário para repetir */
 
-@import "/css/utilitario/utilitario.css";
+@import "/css/utilidades/utilitario.css";
 
 /* página principal do site */
 
 @import "/css/home/introducao.css";
+
+
+/* Utilidades */
+@import "/css/utilidades/tipografia.css";
+@import "/css/utilidades/componentes.css";
+@import "/css/utilidades/cores.css"
