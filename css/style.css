@@ -1,6 +1,12 @@
 @import "/css/global/global.css";
 @import "/css/global/header.css";
 
+/* Utilidades */
+@import "/css/utilidades/tipografia.css";
+@import "/css/utilidades/componentes.css";
+@import "/css/utilidades/cores.css";
+
+
 /* CSS utilitário para repetir */
 
 @import "/css/utilidades/utilitario.css";
@@ -8,9 +14,8 @@
 /* página principal do site */
 
 @import "/css/home/introducao.css";
+@import "/css/home/bicicletas.css";
+@import "/css/home/tecnologias.css";
 
 
-/* Utilidades */
-@import "/css/utilidades/tipografia.css";
-@import "/css/utilidades/componentes.css";
-@import "/css/utilidades/cores.css"
+
