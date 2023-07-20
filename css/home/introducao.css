@@ -63,6 +63,10 @@
         gap: 0px;
     }
 
+    .introducao-conteudo h1 {
+        padding-bottom: 20px;
+    }
+
 
     .introducao-conteudo {
         align-self: end;
@@ -86,4 +90,18 @@
         box-shadow: inset 0px -60px #ffffff;
     }
 
+    .introducao-conteudo p {
+        padding-bottom: 25px;
+    }
+
+    .introducao-conteudo a {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .introducao-conteudo h1 {
+        font-size: 2rem;
+    }
 }
