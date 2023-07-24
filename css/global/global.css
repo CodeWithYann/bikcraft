@@ -5,7 +5,13 @@ body {
     padding-bottom: 600px;
 }
 
-h1, h2, h3, h4, ul, p {
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote {
     margin: 0px;
 }
 
