@@ -1,0 +1,15 @@
+.seguros-bg {
+    background-color: var(--cor-11);
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.seguros {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.seguros h2 {
+    grid-column: 1/-1;
+    padding-bottom: 60px;
+}
