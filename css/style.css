@@ -1,26 +1,52 @@
-@import "/css/global/global.css";
-@import "/css/global/header.css";
+@import "../css/global/global.css";
+@import "../css/global/header.css";
+@import "../css/global/footer.css";
 
 /* Utilidades */
-@import "/css/utilidades/tipografia.css";
-@import "/css/utilidades/componentes.css";
-@import "/css/utilidades/cores.css";
+@import "../css/utilidades/tipografia.css";
+@import "../css/utilidades/componentes.css";
+@import "../css/utilidades/cores.css";
 
 
 /* CSS utilitário para repetir */
 
-@import "/css/utilidades/utilitario.css";
+@import "../css/utilidades/utilitario.css";
 
 /* página principal do site */
 
-@import "/css/home/introducao.css";
-@import "/css/home/bicicletas.css";
-@import "/css/home/tecnologias.css";
-@import "/css/home/parceiros.css";
-@import "/css/home/depoimento.css";
-@import "/css/home/seguros.css";
-@import "/css/home/footer.css";
+@import "../css/home/introducao.css";
+@import "../css/home/bicicletas.css";
+@import "../css/home/tecnologias.css";
+@import "../css/home/parceiros.css";
+@import "../css/home/depoimento.css";
+
+
+/* Termos e condições do site */
+
+@import "../css/termos/termos.css";
+
+/* área de bicicletas */
+
+@import "../css/bicicletas-lista/bicicleta.css";
+
+/* Informações de seguros da loja e da página seguro */
+
+@import "../css/seguro/seguros.css";
+@import "../css/seguro/vantagem.css";
+@import "../css/seguro/perguntas.css";
+
+/* área de contato */
+
+@import "../css/contato/contato.css";
+@import "../css/contato/lojas.css";
 
 
 
+/* página de bicicleta do site */
 
+@import "../css/bicicleta-pagina/bicicleta-pagina.css";
+@import "../css/bicicleta-pagina/seg-bicicleta.css";
+
+/* Formulários */
+
+@import "../css/utilidades/formulario.css";

@@ -8,9 +8,11 @@ h1,
 h2,
 h3,
 h4,
-ul, li,
+ul,
+li,
 p,
-blockquote {
+blockquote,
+dd {
     margin: 0px;
     padding: 0px;
 }

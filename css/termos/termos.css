@@ -1,0 +1,25 @@
+.termos-bg {
+    background: var(--cor-11);
+}
+
+.termos { 
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.termos p {
+    text-transform: uppercase;
+}
+
+.termos-conteudo {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.termos-conteudo h2 {
+    margin-bottom: 20px;
+}
+
+.termos-conteudo p {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font: 600 1rem/1.5 "Poppins", sans-serif;
+    gap: 20px;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.form input[type=text],
+.form input[type=email],
+.form textarea {
+    font: 400 1rem/1.5 "roboto" , sans-serif;
+    background: var(--cor-1);
+    border: 1px solid var(--cor-2);
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
